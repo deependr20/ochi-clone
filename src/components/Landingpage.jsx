@@ -7,7 +7,7 @@ const Landingpage = () => {
     const [hover, sethover] = useState(false)
      
     return (
-        <div data-scroll data-scroll-speed="-.6"   className='w-full   md:h-screen  pt-1'>
+        <div data-scroll data-scroll-speed="-.4"   className='w-full   md:h-screen  pt-1'>
             <div className='md:mt-40 mt-28 px-5 md:px-12'>
                 <div className='w-fit'>
                     <h1 className='lg:text-[8vw]  md:text-[10vw] sm:text-[10vw] text-[10vw] leading-[.9] md:leading-[.85] uppercase tracking-[-.5vw] font-bold'>We create</h1>

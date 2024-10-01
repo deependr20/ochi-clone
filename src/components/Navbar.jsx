@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className='px-5 md:px-12 fixed  w-full z-40 nav py-3 flex justify-between font-[gilroy] items-center'>
-      <div className='flex items-center'>
+      <div className='flex items-center'> 
         <h1 className='text-4xl cursor-pointer font-bold text-gray-800'>ochi</h1>
       </div>
 

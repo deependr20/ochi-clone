@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const About = () => {
     return (
-        <div  className='bg-[#CDEA68] w-full  border-b-[1px] border-gray-600 text-gray-700   h-[120vh] '>
+        <div  className='bg-[#CDEA68] w-full  border-b-[1px] border-gray-600 text-gray-700   h-[115vh] '>
             <div className=' md:py-[5.5rem] py-8 px-12'>
                 <h1 className='md:text-[4vw] text-3xl  font-medium text-gray-800 md:leading-none tracking-normal '>Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.</h1>
             </div>
