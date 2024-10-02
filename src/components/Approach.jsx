@@ -26,7 +26,7 @@ const Approach = () => {
         })
     };
     return (
-        <div  className='w-full h-[100vh] px-12 pt-5 gap-y-5 flex md:flex-row md:justify-between justify-start flex-col bg-[#CDEA68]'>
+        <div data-scroll-section data-scroll data-scroll-speed="-.5" className='w-full h-[100vh] px-12 pt-5 gap-y-5 flex md:flex-row md:justify-between justify-start flex-col bg-[#CDEA68]'>
             <div className='md:w-[50%] w-full '>
                 <h1 className='text-5xl'>Our approach:</h1>
                 <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={` ${arrow ? "bg-white text-zinc-700 font-semibold":"bg-black"} w-fit flex items-center gap-4 px-6 py-4 mt-3 rounded-full text-white`}>
